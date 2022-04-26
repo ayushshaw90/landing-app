@@ -1,0 +1,505 @@
+*{
+    margin:0;
+}
+body{
+    color: white;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(200, 41, 136);
+    padding-top: 10px;
+    padding-bottom:10px;
+    color:white;
+    font-size: 24px;
+    padding-right: 50px;
+}
+nav>div{
+    margin-left:40px;
+}
+nav>ul{
+    display:flex;
+    list-style-type: none;
+}
+nav>ul>li{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#home{
+    background-color: rgb(225, 44, 153);
+    display: flex;
+    flex-direction: column;
+}
+#home>h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: 500;
+}
+#home>p{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:30px;
+    text-align: center;
+    font-size: 20px;
+}
+#home> .image{
+    width: 350px;
+    align-self: center;
+    
+}
+#home> .image> img{
+    width: 350px;
+}
+#features{
+    background-color: rgb(224, 224, 224);
+    color: black;
+    padding-bottom: 40px;
+}
+#features>.small-heading{
+    text-align: center;
+    color: rgb(124, 124, 124);
+    padding-top: 60px;
+}
+#features>.heading{
+    color:rgb(73, 2, 138);
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+#features> .feature-list{
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-left: 4px solid rgb(73, 2, 138);
+    padding-left: 12px;
+}
+#features> .feature-list>div{
+    padding-left:6px;
+    padding-bottom: 20px;
+}
+#features> .feature-list> div> h2{
+    color: rgb(73,2,138);
+}
+
+#discover{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(243, 242, 242);
+}
+#discover> .phone-logo{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    background-color: rgb(212, 214, 216);
+    border-radius: 5px;
+}
+#discover> .slant{
+    width: 100%;
+}
+#discover> h1{
+    color: rgb(73,2,138);
+}
+#discover> p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: gray;
+}
+#discover> button{
+    background-color: rgb(225, 44, 153);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    border-radius: 3px;
+    border: 0px;
+    font-weight: bolder;
+}
+#features{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background-color: rgb(239, 236, 236);
+}
+#features> h3{
+    text-align: center;
+    color: rgb(124, 124, 124);
+    font-size: 14px;
+}
+#features> h1{
+    text-align: center;
+    color:rgb(73, 2, 138);
+    padding-bottom: 40px;
+}
+#features> div> #feature-list{
+    display: flex;
+    justify-content: center;
+
+}
+#features> div> #feature-list> .feature-list-item{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color:rgb(218, 217, 217);
+    margin-left: 2px;
+    border-radius: 3px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    
+}
+#features> div> .card-communication{
+    background-color: white;
+    margin-top: 25px;
+    padding: 20px;
+}
+.card-communication> img{
+    width: 200px;
+}
+#features> div> .card-communication> h2{
+    color:rgb(73, 2, 138);
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+#features> div> .card-communication> h3{
+    color:rgb(225, 44, 153);
+    font-size: 22px;
+    padding-bottom: 20px;;
+}
+#features> div> .card-communication> p{
+    color: gray;
+    font-size: 19px;
+}
+
+#launch{
+    background-color: white;
+    color: black;
+    padding: 30px;
+    padding-bottom: 60px;
+    flex-direction: column;
+    
+}
+#launch> .phone{
+    display:block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#launch> .logo{
+    display: block;
+    width: 50px;
+}
+#launch> h1{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color:rgb(73, 2, 138);
+}
+#launch> p{
+    margin-bottom: 25px;
+    color: gray;
+    font-size: 19px;
+}
+#launch button{
+    background-color: rgb(225, 44, 153);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    border-radius: 3px;
+    border: 0px;
+    font-weight: bolder;
+}
+#account-create{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    
+    background-color: rgb(222, 222, 222);
+}
+#account-create> .phone{
+    display: block;
+    width: 320px;
+    margin-left:auto;
+    margin-right: auto;
+}
+#account-create> .step-list{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    display: flex;
+}
+#account-create> .step-list> div> button{
+    color:rgb(225, 44, 153);
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 25px;
+    background-color: white;
+    border: 0;
+}
+#account-create> .step-list> div> h1{
+    color: rgb(73, 2, 138);
+    margin-bottom: 6px;
+}
+#account-create> .step-list> div> p{
+    color:rgb(124, 124, 124);
+    font-size: 19px;
+}
+#testimonials{
+    background-color: rgb(239, 238, 238);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 60px; 
+    text-align: center;
+}
+.customer-img{
+    width: 100px;
+    display: block;
+    border-radius: 50%;
+    border: 2px solid rgb(124, 124, 124);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+#testimonials> h3{
+    color: gray;
+    font-size: 14px;
+}
+#testimonials> h2{
+    color:rgb(73, 2, 138);
+    font-size:30px;
+    margin-bottom: 40px;
+}
+.customer-card> p{
+    color:rgb(124, 124, 124);
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+.customer-card> .name{
+    font-size: 28px;
+    color: rgb(73,2,138);
+}
+.customer-card> .place{
+    color:rgb(225, 44, 153);
+    font-size: 18px;
+}
+#gallery{
+    text-align: center;
+    background-color: rgb(216, 216, 216);
+    padding: 40px 30px;
+}
+#gallery>div>h3{
+    font-size:14px;
+    color:rgb(124, 124, 124);
+}
+#gallery>div>h2{
+    color: rgb(73, 2, 138);
+}
+#gallery> #indicate{
+    display:flex;
+    justify-content: center;
+}
+#gallery> #indicate >div{
+    
+    background-color: rgb(225, 44, 153);
+    width:40px;
+    height:8px;
+    margin-left:4px;
+    margin-right:4px;
+    border-radius: 5px;
+}
+#price{
+    background-color: rgb(245, 241, 241);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#price> h3{
+    font-size: 14px;
+    color:rgb(124, 124, 124);
+}
+#price> h2{
+    color:rgb(73, 2, 138);
+    margin-bottom: 30px;
+}
+.pricing-plan{
+    margin: 20px 30px;
+    background-color: white;
+    color:black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.pricing-plan> h3{
+    color:rgb(225, 44, 153);
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.pricing-plan> h2{
+    color:rgb(73, 2, 138);
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.pricing-plan> ul{
+    list-style: none;
+    padding:0;
+}
+.pricing-plan> ul> li{
+    color:rgb(124, 124, 124);
+    margin-bottom: 30px;
+    font-size: 19px;
+}
+.pricing-plan> ul> li>strike{
+    color:rgb(202, 201, 201)
+}
+.pricing-plan> div{
+    background-color: red;
+    margin-left: 40px;
+    margin-right:40px;
+}
+.pricing-plan> div>button{
+    background-color: rgb(225, 44, 153);
+    color: white;
+    padding: 15px 40px;
+    border: 0;
+    font-weight: bolder;
+    width: 100%;
+}
+#faq{
+    padding: 30px 60px;
+    background-color: rgb(241, 240, 240);
+}
+#faq> h3{
+    text-align: center;
+    color:rgb(124, 124, 124);
+    font-size: 14px;
+}
+#faq> h1{
+    color:rgb(73, 2, 138);
+    text-align: center;
+    padding-bottom: 60px;
+}
+.question{
+    margin-bottom:40px;
+}
+.question> h2{
+    color:rgb(73, 2, 138);
+    margin-bottom: 30px;
+}
+.question> p{
+    color:rgb(124, 124, 124);
+    font-size: 19;
+}
+
+#appstore{
+    padding: 120px 60px;
+    text-align: center; 
+    color: white;
+    background-color: rgb(225, 44, 153);
+}
+.app-button{
+    display: flex;
+}
+.app-button> div{
+    margin-left: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.app-button> img{
+    width: 32px;
+}
+#appstore> h1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+#appstore> .text{
+    color:rgb(244, 179, 218);
+    font-size: 19px;
+    padding-bottom: 50px;
+}
+#appstore> .star{
+    color:rgb(191, 133, 168);
+    font-size: 19px;
+}
+.appstore-links{
+    display: flex;
+    justify-content: center;
+}
+.appstore-links> button{
+    margin-left: 10px;
+    margin-right: 10px;
+    color:rgb(241, 240, 240);
+    padding: 14px 18px;
+    color:rgb(73, 2, 138);
+    font-weight: bold;
+    border:0;
+    border-radius: 5px;
+    width: 180px;
+    margin-bottom: 30px;
+}
+#footer{
+    background-color: rgb(239, 239, 239);
+    padding-top: 60px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.foot-list{
+    display: flex;
+    justify-content: center;
+
+    margin: 20px 40px;
+}
+.foot-items{
+    display: inline-flex;
+    white-space: nowrap;
+    margin-right: 50px;
+}
+.foot-items> img{
+    display: inline;
+}
+.foot-items> p{
+    display: inline;
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+#address{
+    color:rgb(124, 124, 124);
+}
+#email{
+    color:rgb(225, 44, 153);
+}
+#call{
+    color:rgb(225, 44, 153);
+}
+#social-media> ul{
+    list-style: none;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    
+}
+#social-media> ul> li{
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+#social-media> ul> li> a>img{
+    width: 50px;
+    height: 50px;
+    opacity: 0.3;
+}
+
+.small-icons{
+    width: 24px;
+}

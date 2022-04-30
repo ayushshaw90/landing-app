@@ -8,7 +8,7 @@ body{
 nav{
     display:flex;
     justify-content: space-evenly;
-    background-color: rgb(200, 41, 136);
+    background-color: rgb(102, 12, 186);
     padding-top: 10px;
     padding-bottom:10px;
     color:white;
@@ -37,7 +37,8 @@ nav>ul>li{
     height: 40px;
 }
 #home{
-    background-color: rgb(225, 44, 153);
+    background-image: linear-gradient(rgb(102, 12, 186), rgb(253, 52, 146));
+    /* background-color: rgb(225, 44, 153); */
     display: flex;
     flex-direction: column;
 }

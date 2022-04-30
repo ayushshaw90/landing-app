@@ -14,6 +14,9 @@ nav{
     font-size: 24px;
     padding-right: 50px;
 }
+nav>div> img{
+    display: none;
+}
 nav>div{
     margin-left:40px;
 }
@@ -515,6 +518,7 @@ nav>ul>li{
     #features{
         padding-left: 180px;
         padding-right: 180px;
+        padding-bottom: 200px;
     }
     #discover{
         padding-left: 210px;
@@ -557,5 +561,30 @@ nav>ul>li{
         width: 600px;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+@media screen and (max-width: 500px){
+    nav{
+        display: block;
+    }
+    nav> div{
+        display: flex;
+        justify-content: space-between;
+        height: 32px;
+        
+    }
+    .hide-nav{
+        display: none;
+    }
+    .show-nav{
+        display: block;
+    }
+    
+    nav> ul> li{
+        text-align: center;
+        
+    }
+    nav> div>img{
+        display: inline;
     }
 }

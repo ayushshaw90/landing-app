@@ -503,3 +503,59 @@ nav>ul>li{
 .small-icons{
     width: 24px;
 }
+@media screen and (min-width: 900px) {
+    #home> .image{
+        width: 500px;
+    }
+    #home>.image> img{
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #features{
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+    #discover{
+        padding-left: 210px;
+        padding-right: 210px;
+    }
+    #launch{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    #launch> .phone{
+        width: 400px;
+    }
+    #account-create{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    #account-create> .phone{
+        width: 450px;
+    }
+    #testimonials{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    #testimonials> .customer-card{
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #price> .pricing-plan{
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #faq> div{
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #appstore> .text{
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

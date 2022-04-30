@@ -604,4 +604,7 @@ nav>ul>li{
         padding-left: 15px;
         padding-right: 15px;
     }
+    .foot-items> p{
+        font-size: 10px;
+    }
 }
